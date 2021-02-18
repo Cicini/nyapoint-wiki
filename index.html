@@ -11,7 +11,6 @@
 <body>
   <div id="app">Loading</div>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github/index.js"></script>
   <script>
     window.$docsify = {
       name: 'NyaPoint Wiki',
@@ -33,16 +32,9 @@
         noData: '未找到结果',
         namespace: 'nyapoint-wiki',
       },
-
-      plugins: [
-        EditOnGithubPlugin.create(
-          'https://github.com/Cicini/nyapoint-wiki/blob/main/'
-        ),
-      ]
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>

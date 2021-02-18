@@ -1,3 +1,3 @@
 # NyaPoint Minecraft Wiki
 
-> Project.
+> Move to https://hg.nya.pt/d/24.

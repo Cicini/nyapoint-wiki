@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NyaPoint Wiki</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+</head>
+<body>
+  <div id="app">Loading</div>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github/index.js"></script>
+  <script>
+    window.$docsify = {
+      name: 'NyaPoint Wiki',
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      relativePath: false,
+      themeColor: '#FF6666',
+      mergeNavbar: true,
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+      externalLinkTarget: '_blank',
+      notFoundPage: true,
+      search: 'auto',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '键入开始搜索...',
+        noData: '未找到结果',
+        namespace: 'nyapoint-wiki',
+      },
+
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/Cicini/nyapoint-wiki'
+        ),
+      ]
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+</body>
+</html>

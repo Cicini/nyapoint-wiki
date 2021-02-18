@@ -1,1 +1,1 @@
-# nyapoint-wki
+# nyapoint-wiki

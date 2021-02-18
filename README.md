@@ -1,3 +1,0 @@
-# NyaPoint Minecraft Wiki
-
-> Project.
